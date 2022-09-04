@@ -1,0 +1,13 @@
+{
+    "name": "Google Ad Blocker",
+    "description": "Block Google Search Ads",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://www.google.com/*"],
+            "js": ["background.js"]
+        }
+        ]
+    
+  }
